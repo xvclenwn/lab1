@@ -1,10 +1,12 @@
-import Image from "next/image";
+import styles from "./about/page.module.css";
 
-export default function Home() {
+export default function About() {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <p>My first Next.js app</p>
+      <h1 className={styles.title}>Миний тухай</h1>
+      <p className={styles.description}>
+        Энэ хуудсыг CSS Module ашиглаж загварчилсан.
+      </p>
     </div>
   );
 }
