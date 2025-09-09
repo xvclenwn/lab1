@@ -1,12 +1,10 @@
-import styles from "./about/page.module.css";
+import Layout from "./components/Layout";
 
-export default function About() {
+export default function Home() {
   return (
-    <div>
-      <h1 className={styles.title}>Миний тухай</h1>
-      <p className={styles.description}>
-        Энэ хуудсыг CSS Module ашиглаж загварчилсан.
-      </p>
-    </div>
+    <Layout>
+      <h2 className="text-2xl font-bold">Нүүр хуудас</h2>
+      <p className="mt-4">Энэ бол Layout ашигласан жишээ.</p>
+    </Layout>
   );
 }
