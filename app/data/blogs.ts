@@ -1,10 +1,9 @@
 export const blogs = [
-    { id: 1, blogname: "Human", description:"Tailbar"},
-    { id: 2, blogname: "Technology", description:"Tailbar"},
-    { id: 3, blogname: "Nature", description:"Tailbar"},
-];
-
-export const comments = [
+    { id: 1, blogname: "Human Being", description:"human being, a culture-bearing primate classified in the genus Homo, especially the species H. sapiens. Human beings are anatomically similar and related to the great apes but are distinguished by a more highly developed brain and a resultant capacity for articulate speech and abstract reasoning. In addition, human beings display a marked erectness of body carriage that frees the hands for use as manipulative members. Some of these characteristics, however, are not entirely unique to humans. The gap in cognition, as in anatomy, between humans and the great apes (orangutans, gorillas, chimpanzees, and bonobos) is much less than was once thought, as they have been shown to possess a variety of advanced cognitive abilities formerly believed to be restricted to humans."},
+    { id: 2, blogname: "Technology", description:"Technology is a critical component of our world today. From communication and time management to manufacturing and healthcare, tech tools have an enormous impact on our lives. And for students at UA Grantham, it’s also what allows them to find success in school no matter where they are located. There’s always a tradeoff, of course, and sometimes it feels like our technology is taking over our lives. Let’s take a look at the good, the bad, and the ugly sides of technology today—and how we can make sure that we’re getting the most out of these tools without falling into some common traps."},
+    { id: 3, blogname: "Nature", description:"Nature is an inherent character or constitution,[1] particularly of the ecosphere or the universe as a whole. In this general sense nature refers to the laws, elements and phenomena of the physical world, including life. Although humans are part of nature, human activity or humans as a whole are often described as at times at odds, or outright separate and even superior to nature.[2] During the advent of modern scientific method in the last several centuries, nature became the passive reality, organized and moved by divine laws."},
+]
+    export const comments = [
     { id: 1, commentname: "Дорж", description: "gaihaltai"},
     { id: 2, commentname: "Бат", description:"gaihmaar"},
     { id: 3, commentname: "Дорж", description:"waaw"},
