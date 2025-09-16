@@ -13,6 +13,7 @@ export default function Navigation() {
 
         <div style={{ marginLeft: "auto", display: "flex", gap: "15px" }}>
           <Link href="/" style={{ color: "white" }}>Нүүр</Link>
+          <Link href="/blog" style={{ color: "white" }}>Блогууд</Link>
           <Link href="/about" style={{ color: "white" }}>Миний тухай</Link>
           <Link href="/contact" style={{ color: "white" }}>Холбоо барих</Link>
         </div>

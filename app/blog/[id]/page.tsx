@@ -19,7 +19,7 @@ export default function BlogDetail({ params }: { params: { id: string } }) {
       </p>
       <Link
         href={`/blog/${blog.id}/comments`} 
-        className="mt-2 text-sm bg-blue-600 px-4 py-2 rounded text-white hover:bg-blue-700"
+        className="text-blue-500 text-3 font-bold mb-1"
       >
         Коммэнт харах
       </Link>
